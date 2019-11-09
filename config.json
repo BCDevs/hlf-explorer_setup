@@ -44,12 +44,11 @@
               "home/salmandabbakuti/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
           }
         },
-        },
         "OrdererMSP": {
           "mspid": "OrdererMSP",
           "adminPrivateKey": {
             "path":
-              "fabric-path/fabric-samples/first-network/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore"
+              "home/salmandabbakuti/hlf-explorer_setup/basic-network/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore"
           }
         }
       },
@@ -64,7 +63,7 @@
           "grpcOptions": {
             "ssl-target-name-override": "peer0.org1.example.com"
           }
-        },
+        }
       },
       "orderers": {
         "orderer.example.com": {
