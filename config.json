@@ -37,18 +37,18 @@
           "fullpath": false,
           "adminPrivateKey": {
             "path":
-              "home/salmandabbakuti/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore"
+              "home/user/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore"
           },
           "signedCert": {
             "path":
-              "home/salmandabbakuti/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
+              "home/user/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
           }
         },
         "OrdererMSP": {
           "mspid": "OrdererMSP",
           "adminPrivateKey": {
             "path":
-              "home/salmandabbakuti/hlf-explorer_setup/basic-network/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore"
+              "home/user/hlf-explorer_setup/basic-network/crypto-config/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore"
           }
         }
       },
@@ -56,7 +56,7 @@
         "peer0.org1.example.com": {
           "tlsCACerts": {
             "path":
-              "home/salmandabbakuti/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
+              "home/user/hlf-explorer_setup/basic-network/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
           },
           "url": "grpcs://localhost:7051",
           "eventUrl": "grpcs://localhost:7053",
@@ -73,6 +73,6 @@
     },
     "network-2": {}
   },
-  "configtxgenToolPath": "home/salmandabbakuti/hlf-explorer_setup/basic-network/bin",
+  "configtxgenToolPath": "home/user/hlf-explorer_setup/basic-network/bin",
   "license": "Apache-2.0"
 }
