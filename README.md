@@ -17,9 +17,17 @@ If we could mount these files in exact locations as they are in previously, we a
 ```
 cd client 
 cd ./start.sh #Run Some Normal operations
-cd ..
-cd basic-network
-./backup.sh # Takes backup of current state
-
-./restore.sh #Restores network to the backup state
 ```
+#### Explorer-setup
+
+#1. prereqs (pulling and starting docker image)
+
+docker pull salmandabbakuti/hlf-explorer_setup:1.0
+
+docker run --name hlf-explorer --privileged -it -p 8080:8080 salmandabbakuti/hlf-explorer_setup:1.0
+
+#2. modify connection profile according network
+
+#3. ./start.sh (blockchain-explorer)
+
+
